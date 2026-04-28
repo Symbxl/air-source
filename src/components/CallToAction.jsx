@@ -22,7 +22,7 @@ const Banner = styled.section`
     position: absolute;
     top: -160px; right: -140px;
     width: 520px; height: 520px;
-    background: radial-gradient(circle, rgba(232,93,4,0.42), transparent 65%);
+    background: radial-gradient(circle, rgba(30,136,229,0.42), transparent 65%);
     filter: blur(70px);
     pointer-events: none;
   }
@@ -31,7 +31,7 @@ const Banner = styled.section`
     position: absolute;
     bottom: -200px; left: -160px;
     width: 520px; height: 520px;
-    background: radial-gradient(circle, rgba(30,136,229,0.24), transparent 65%);
+    background: radial-gradient(circle, rgba(14,165,233,0.32), transparent 65%);
     filter: blur(80px);
     pointer-events: none;
   }

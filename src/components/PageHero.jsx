@@ -11,7 +11,7 @@ const Wrap = styled.section`
     inset: 0; bottom: auto;
     height: 460px;
     background:
-      radial-gradient(60% 50% at 50% 0%, rgba(232,93,4,0.06), transparent 70%),
+      radial-gradient(60% 50% at 50% 0%, rgba(30,136,229,0.06), transparent 70%),
       linear-gradient(to bottom, var(--color-surface-alt), transparent);
     pointer-events: none;
   }

@@ -39,7 +39,7 @@ const HeroSection = styled.section`
     bottom: auto;
     height: 560px;
     background:
-      radial-gradient(60% 50% at 50% 0%, rgba(232,93,4,0.08), transparent 70%),
+      radial-gradient(60% 50% at 50% 0%, rgba(30,136,229,0.08), transparent 70%),
       linear-gradient(to bottom, var(--color-surface-alt), transparent);
     pointer-events: none;
   }
@@ -95,7 +95,7 @@ const ServiceCard = styled(motion(RouterLink))`
   &:hover {
     transform: translateY(-4px);
     box-shadow: var(--shadow-lift);
-    border-color: rgba(232,93,4,0.25);
+    border-color: rgba(30,136,229,0.25);
   }
   .image-wrap {
     position: relative;
@@ -186,15 +186,15 @@ const PromoCard = styled(motion.article)`
   &:hover {
     transform: translateY(-4px);
     box-shadow: var(--shadow-lift);
-    border-color: rgba(232,93,4,0.3);
+    border-color: rgba(30,136,229,0.3);
   }
 
   .promo-header {
     position: relative;
     padding: 26px 28px 24px;
     background:
-      radial-gradient(120% 100% at 100% 0%, rgba(232,93,4,0.10), transparent 60%),
-      linear-gradient(180deg, var(--color-accent-soft), #fff7ed);
+      radial-gradient(120% 100% at 100% 0%, rgba(30,136,229,0.10), transparent 60%),
+      linear-gradient(180deg, var(--color-accent-soft), #f5fbff);
   }
 
   .promo-divider {
@@ -216,7 +216,7 @@ const PromoCard = styled(motion.article)`
     text-transform: uppercase;
     padding: 6px 11px;
     border-radius: 9999px;
-    border: 1px solid rgba(232,93,4,0.25);
+    border: 1px solid rgba(30,136,229,0.25);
     box-shadow: 0 1px 2px rgba(10,22,40,0.05);
   }
   .promo-badge::before {
@@ -353,8 +353,8 @@ export default function Home() {
                 className="heading-display"
                 sx={{ fontSize: { xs: 40, sm: 56, md: 68 }, color: 'var(--color-ink)' }}
               >
-                Comfort You Can{' '}
-                <Box component="span" sx={{ color: 'var(--color-accent)' }}>Count On</Box>
+                Heating, Cooling,{' '}
+                <Box component="span" sx={{ color: 'var(--color-accent)' }}>Done Right</Box>
               </Typography>
             </motion.div>
 

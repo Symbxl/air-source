@@ -22,7 +22,7 @@ const FooterRoot = styled.footer`
     position: absolute;
     top: -160px; right: -120px;
     width: 480px; height: 480px;
-    background: radial-gradient(circle, rgba(232,93,4,0.18), transparent 65%);
+    background: radial-gradient(circle, rgba(30,136,229,0.18), transparent 65%);
     filter: blur(70px);
     pointer-events: none;
   }
