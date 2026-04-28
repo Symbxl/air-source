@@ -12,12 +12,12 @@ const theme = createTheme({
       contrastText: '#ffffff',
     },
     secondary: {
-      main: '#1e88e5',       // accent blue
-      light: '#42a5f5',
-      dark: '#1565c0',
-      contrastText: '#ffffff',
+      main: '#eab308',       // accent yellow
+      light: '#facc15',
+      dark: '#ca8a04',
+      contrastText: '#0a1628',
     },
-    cool: { main: '#0ea5e9' },
+    cool: { main: '#f59e0b' },
     background: {
       default: '#ffffff',
       paper: '#ffffff',
@@ -52,9 +52,10 @@ const theme = createTheme({
           '&:hover': { boxShadow: 'none' },
         },
         containedSecondary: {
-          background: '#1e88e5',
-          boxShadow: '0 8px 24px -8px rgba(30,136,229,0.55)',
-          '&:hover': { background: '#1565c0' },
+          background: '#eab308',
+          color: '#0a1628',
+          boxShadow: '0 8px 24px -8px rgba(234,179,8,0.6)',
+          '&:hover': { background: '#ca8a04', color: '#0a1628' },
         },
         containedPrimary: {
           background: '#0b2545',
